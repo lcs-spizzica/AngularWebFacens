@@ -1,0 +1,22 @@
+<div class="container">
+    <div class="row">
+       <div class="mb-3">
+         <label for="input1" class="form-label">AC1</label>
+         <input type="number" class="form-control col-3" id="notaAc1" aria-describedby="notaAc1" name="ac1" [(ngModel)]="ac1">
+         
+         <label for="input1" class="form-label">AC2</label>
+         <input type="number" class="form-control" id="notaAc2" aria-describedby="notaAc1" name="ac2"  [(ngModel)]="ac2">
+         
+         <label for="input1" class="form-label">AG</label>
+         <input type="number" class="form-control" id="notaAg" aria-describedby="notaAg" name="ag" [(ngModel)]="ag" >
+         
+         <label for="input1" class="form-label">AF</label>
+         <input type="number" class="form-control" id="notaAf" aria-describedby="notaAc1" name="af" [(ngModel)]="af">
+         
+         <button type="button" class="btn btn-outline-primary" (click)="calcularMedia()">Calcular Média</button>
+
+         <input type="number" class="m-1" placeholder="Média Final" name="media" [(ngModel)]="media">
+       </div>
+         
+        </div>
+    </div>

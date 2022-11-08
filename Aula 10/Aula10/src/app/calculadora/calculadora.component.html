@@ -1,0 +1,14 @@
+<input type="number" placeholder="Num1" name="num1" [(ngModel)]="num1" >
+<input type="number" placeholder="Num2" name="num2" [(ngModel)]="num2">
+<input type="number" placeholder="Resultado" name="resultado" [(ngModel)]="resultado">
+
+<div class="row">
+    <div class="col-md align-items-center">
+        <div class="btn-group" role="group" aria-label="Basic example">
+          <button type="button" class="btn btn-primary m-2" (click)="somar()">Somar</button>
+          <button type="button" class="btn btn-primary m-2" (click)="subtrair()">Subtrair</button>
+          <button type="button" class="btn btn-primary m-2" (click)="dividir()">Dividir</button>
+          <button type="button" class="btn btn-primary m-2" (click)="multiplicar()">Multiplicar</button>
+        </div>
+    </div>
+</div>
